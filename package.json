@@ -1,0 +1,13 @@
+{
+  "name": "my-koyeb-app",
+  "version": "1.0.0",
+  "description": "Node.js app running on Koyeb",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {}
+}
