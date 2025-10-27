@@ -1330,7 +1330,7 @@ function createAuxBotAndRunFlow(host, port = 25565, version = '1.21.1') {
         }
         console.log("ciao")
         // /warp War
-        try { aux.chat('/warp War'); console.log(`[ACCT:${username}] Sent /warp War`); } catch (e) { console.log(`[ACCT:${username}] chat /warp failed:`, e); }
+        try { aux.chat('1'); console.log(`[ACCT:${username}] Sent /warp War`); } catch (e) { console.log(`[ACCT:${username}] chat /warp failed:`, e); }
 
         // WAIT 5s then perform a random walk of 3..8 blocks in a random direction
         try {
